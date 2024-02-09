@@ -1,0 +1,115 @@
+body{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px;
+    /* filter: blur(2px); */
+    /* -webkit-filter: blur(8px); */
+    font-weight: 900;
+    /* min-height: 100vh; */
+    background: url(project/login_background.jpg) no-repeat;
+    background-size: cover;
+    background-position:0px -240px;
+
+
+}
+#main{
+     display: flex;
+     justify-content: center;
+}
+
+#contact{
+    background: transparent;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,.5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    /* filter: blur(0px); */
+    padding: 5px,5px;
+    width: auto;
+    text-align: center;
+    /* border-radius: 5px; */
+    /* border: 1px solid black; */
+    line-height: 10%;
+    /* background-color: rgb(34, 129, 224); */
+    color: white;
+    
+}
+
+form{
+    /* text-align: center; */
+    color: white;
+    background: transparent;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,.5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    padding: 10px 100px;
+    font-size: large;
+    width: 80%;
+
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea{
+    width: 80%;
+    height: 25px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+#select{
+    width: 80%;
+    height: 25px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#sub{
+    background: transparent;
+    padding: 5px,5px;
+    text-align: center;
+    line-height: 10%;
+    z-index: 3;
+    padding: 20px 50px;
+}
+
+a:link{
+    color: rgb(37, 89, 203);
+    text-decoration: none;
+    
+}
+
+#submit {
+    background-color:rgb(255, 255, 255);
+    font-size: larger;
+    color: rgb(0, 70, 232);
+    border-radius: 5px;
+    border:2px solid blue;
+    cursor: pointer;
+    width: 20%;
+    
+}
+
+input[type="reset"] {
+    background-color: rgb(20, 101, 223);
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border:2px solid blue;
+    width: 20%;
+}
+
+#submit:hover {
+    background-color: rgb(69, 158, 213);
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}

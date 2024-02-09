@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+   
+    <div id="contact">
+        <h1>Contact Form</h1>
+        <p id="Subheading">Please fill all the text in the fields.</p>
+    </div>
+
+    <div id="main">
+    <form action="">
+
+        <p class="name" >
+            <label for="name">Your Name:<br></label>
+            <input type="text" placeholder="Your Full Name" id="name">
+            
+        </p>
+        <p class="email"> Your Email:<br>
+            <label for="email"></label>
+            <input type="email" name="email" id="" placeholder="Enter your Email">
+        </p>
+        <p class="number">
+            <label for="mob">Your mobile number:<br></label>
+            <input type="text" placeholder="Enter your mobile number" id="mob">
+        </p>
+        <p class="message">
+            <label for="a">Your message to us:<br></label>
+            
+            <textarea name="message" id="a" cols="50" rows="5" placeholder="Enter your query here"></textarea>
+        </p>
+       
+        <div id="sub">
+            <button id="submit"  onclick="alert('your form is successfully submitted')"><a href="/index.html">Submit</a> </button>
+
+            <!-- <a href="/a.html">
+                <input type="submit" value="Submit"> 
+            </a> -->
+              
+              <input type="reset" value="Reset">
+        </div>
+        
+    </form>
+</div>
+</body>
+
+</html>
